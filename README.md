@@ -8,9 +8,9 @@ Rollout prediction of complex flow on irregular meshes for hundreds to thousands
 ## Reacting Flow
 Ground truth data taken from a public dataset (https://afcoe.engin.umich.edu/benchmark-data) for a 2D rocket injector. A highly irregular mesh is used.
 
-![Irregular mesh](https://user-images.githubusercontent.com/24285886/121129296-beb1b200-c7fa-11eb-9f03-9a2f8a61fb43.jpg)
-![Predicted CH4 mass fraction](https://user-images.githubusercontent.com/24285886/121129154-83af7e80-c7fa-11eb-8e6b-68c9bd0ea642.gif)
-![Predicted temperature](https://user-images.githubusercontent.com/24285886/121129158-85794200-c7fa-11eb-8aaa-41db4b9ef2ac.gif)
+![Predicted CH4 mass fraction](https://user-images.githubusercontent.com/24285886/121130524-83b07e00-c7fc-11eb-9132-4c01c9ddfde5.gif)
+![Predicted temperature](https://user-images.githubusercontent.com/24285886/121130533-8612d800-c7fc-11eb-93fc-f8fb367e4bf9.gif)
+
 
 ## Flow Over Cylinder
 A classic test case. Ground truth generated using an openfoam tutorial (https://wiki.openfoam.com/Vortex_shedding_by_Joel_Guerrero_2D).
@@ -22,6 +22,7 @@ A classic test case. Ground truth generated using an openfoam tutorial (https://
 
 
 # Super-Resolution with CP-MLP
+Predicting high-resolution flow images from low-resolution ones. 
 ![super_resolv](https://user-images.githubusercontent.com/24285886/121130087-e35a5980-c7fb-11eb-90b8-f2f0259045b1.png)
 
 <!-- # Parametric Time-Series Prediction with Multi-Level Autoencoders
